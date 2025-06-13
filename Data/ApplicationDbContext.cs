@@ -1,5 +1,4 @@
-﻿using GamingStore.API.Models;
-using GamingStore.Models;
+﻿using GamingStore.Models;
 using Microsoft.EntityFrameworkCore;
 
 public class ApplicationDbContext : DbContext
@@ -9,5 +8,4 @@ public class ApplicationDbContext : DbContext
     public DbSet<Teclado> Teclados { get; set; }
     public DbSet<Mouse> Mouses { get; set; }
     public DbSet<Headset> Headsets { get; set; }
-    }
 }
